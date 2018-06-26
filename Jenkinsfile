@@ -5,7 +5,7 @@ node{
     }
     stage('Compile-Package')
     {
-    sh ''
+    sh 'mvn clean package'
     
     }
    }
